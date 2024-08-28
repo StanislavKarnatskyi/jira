@@ -169,7 +169,7 @@ var = {
             "Weight": "0.5",  # dynamic parameter // need to manually enter
             "ServiceType": "WarehouseWarehouse",  # dynamic parameter
             "SeatsAmount": "1",  # dynamic parameter // need to manually enter
-            "Description": "Issue key",  # dynamic parameter // jira issue key
+            "Description": "Девайси",  # static
             "Cost": "15000",  # dynamic parameter / from Jira
             "CitySender": "8d5a980d-391c-11dd-90d9-001a92567626",
             "Sender": "fdc96d91-77e0-11e9-9937-005056881c6b",
@@ -180,6 +180,7 @@ var = {
             "Recipient": 'recipient',  # dynamic parameter
             "RecipientAddress": 'recipient_address',  # dynamic parameter // can be warehouse or address
             "ContactRecipient": 'contact_recipient',  # dynamic parameter
-            "RecipientsPhone": 'phone'  # dynamic parameter
+            "RecipientsPhone": 'phone',  # dynamic parameter
+            "InfoRegClientBarcodes": "Issue key",  # Issue key
         }
     }
