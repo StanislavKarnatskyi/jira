@@ -61,6 +61,11 @@ vinnytsia = {
 }
 
 
+# recipient Kyiv
+
+# todo
+
+
 # create user
 """
     create user from jira data. only ukrainian language allowable
@@ -105,6 +110,9 @@ create_user = {
         
     info for receive 
         response['data'][0]['Addresses'][0]['Ref']
+    
+    fields in request for creating parcel    
+        CityRecipient = response['data'][0]['Addresses'][0]['Ref']
 """
 
 find_city = {
@@ -127,6 +135,9 @@ find_city = {
         
     info for receive 
         response['data'][0]['Ref']
+        
+    fields in request for creating parcel    
+        RecipientAddress = response['data'][0]['Ref']
 """
 
 find_warehouse = {
